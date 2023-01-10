@@ -1,0 +1,35 @@
+.users-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.users-list__item {
+    border-bottom: 1px solid rgba(124, 124, 124, 0.5);
+    padding: 4px;
+}
+
+.users-list__item:nth-child(1) {
+    background-color: #fdd4a1;
+}
+
+.users-list__item:nth-child(2) {
+    background-color: #fdddb6;
+}
+
+.users-list__item:nth-child(3) {
+    background-color: #fde6ca;
+}
+
+.user {
+    display: flex;
+}
+
+.user__name {
+    flex: 1 1 auto;
+}
+
+.user__score {
+    width: 100px;
+    text-align: right;
+    font-weight: 700;
+}

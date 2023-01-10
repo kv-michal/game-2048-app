@@ -1,0 +1,72 @@
+.board-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    color: #776E65;
+    font-size: 36px;
+    font-weight: 700;
+    background-color: #CDC1B4;
+    /*animation: 0.2s pop-in;*/
+}
+
+.board-item--anim {
+    animation: 0.2s pop-in;
+}
+
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.value-2 {
+    background-color: rgb(238, 228, 218);
+}
+
+.value-4 {
+    background-color: rgb(237, 224, 200);
+}
+
+.value-8 {
+    background-color: rgb(242, 177, 121);
+}
+
+.value-16 {
+    background-color: rgb(245, 149, 99);
+}
+
+.value-32 {
+    background-color: rgb(246, 124, 95);
+}
+
+.value-64 {
+    background-color: rgb(246, 94, 59);
+}
+
+.value-128 {
+    background-color: rgb(237, 207, 114);
+}
+
+.value-256 {
+    background-color: rgb(237, 204, 97);
+}
+
+.value-512 {
+    background-color: rgb(237, 200, 80);
+}
+
+.value-1024 {
+    background-color: rgb(237, 197, 63);
+}
+
+.value-2048 {
+    background-color: rgb(237, 194, 46);
+}

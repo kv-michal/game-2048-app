@@ -1,0 +1,20 @@
+.leaderboard-page {
+    width: 400px;
+}
+
+.leaderboard-page__header {
+    text-align: center;
+}
+
+.leaderboard-page__actions {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 5px 0;
+    gap: 4px;
+}
+
+.leaderboard-page__hint {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
